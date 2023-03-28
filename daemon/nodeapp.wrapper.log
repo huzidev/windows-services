@@ -1,0 +1,48 @@
+2023-03-28 00:43:53 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Programming\services\node_modules\node-windows\lib\wrapper.js --file D:\Programming\services\index.js --scriptoptions= --log "Node App wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-28 00:43:54 - Started 2300
+2023-03-28 00:44:18 - Stopping nodeapp.exe
+2023-03-28 00:44:18 - ProcessKill 2300
+2023-03-28 00:44:18 - Found child process: 7640 Name: conhost.exe
+2023-03-28 00:44:18 - Found child process: 15028 Name: node.exe
+2023-03-28 00:44:18 - Stopping process 7640
+2023-03-28 00:44:18 - Send SIGINT 7640
+2023-03-28 00:44:18 - SIGINT to 7640 failed - Killing as fallback
+2023-03-28 00:44:18 - Stopping process 15028
+2023-03-28 00:44:18 - Send SIGINT 15028
+2023-03-28 00:44:18 - SIGINT to 15028 failed - Killing as fallback
+2023-03-28 00:44:18 - Stopping process 2300
+2023-03-28 00:44:18 - Send SIGINT 2300
+2023-03-28 00:44:18 - SIGINT to 2300 failed - Killing as fallback
+2023-03-28 00:44:18 - Finished nodeapp.exe
+2023-03-28 00:44:26 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Programming\services\node_modules\node-windows\lib\wrapper.js --file D:\Programming\services\index.js --scriptoptions= --log "Node App wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-28 00:44:26 - Started 2556
+2023-03-28 00:45:19 - Stopping nodeapp.exe
+2023-03-28 00:45:19 - ProcessKill 2556
+2023-03-28 00:45:19 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2023-03-28 00:45:56 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\Programming\services\node_modules\node-windows\lib\wrapper.js --file D:\Programming\services\index.js --scriptoptions= --log "Node App wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-03-28 00:45:56 - Started 5268
+2023-03-28 00:52:09 - Stopping nodeapp.exe
+2023-03-28 00:52:09 - ProcessKill 5268
+2023-03-28 00:52:09 - Found child process: 5760 Name: conhost.exe
+2023-03-28 00:52:09 - Found child process: 6280 Name: node.exe
+2023-03-28 00:52:09 - Stopping process 5760
+2023-03-28 00:52:09 - Send SIGINT 5760
+2023-03-28 00:52:09 - SIGINT to 5760 failed - Killing as fallback
+2023-03-28 00:52:09 - Stopping process 6280
+2023-03-28 00:52:09 - Send SIGINT 6280
+2023-03-28 00:52:09 - SIGINT to 6280 failed - Killing as fallback
+2023-03-28 00:52:09 - Stopping process 5268
+2023-03-28 00:52:09 - Send SIGINT 5268
+2023-03-28 00:52:09 - SIGINT to 5268 failed - Killing as fallback
+2023-03-28 00:52:09 - Finished nodeapp.exe
